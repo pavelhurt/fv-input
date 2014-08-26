@@ -1,0 +1,27 @@
+{
+  "name": "fv-input",
+  "repo": "pavelhurt/fv-input",
+  "description": "feaven input built with component",
+  "version": "0.0.1",
+  "keywords": [
+    "fv-input",
+    "feaven",
+    "fv",
+    "input"
+  ],
+  "dependencies": {
+    "yyx990803/vue": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "templates": [
+    "template.html"
+  ],
+  "styles": [
+    "fv-input.css"
+  ]
+}

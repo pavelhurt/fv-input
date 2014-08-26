@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+  <title>fv-input|feaven input demo</title>
+  <meta charset="utf-8"/>
+  <meta name="description" content="fv-input|feaven input demo"/>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes"/>
+  <link rel="stylesheet" href="build/build.css" />
+  <style>
+    body, article, section, h1 {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    fv-toolbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      height: 256px;
+      background-color: #5677fc;
+    }
+    .demo-toolbar {
+      font-family: Consolas;
+      font-size: 48px;
+      color: #fff;
+    }
+    .card-content-position {
+      position: relative;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      align-content: space-between;
+      justify-content: center;
+      top: 154px;
+    }
+    .demo-card {
+      width: 360px;
+      height: 200px;
+      padding: 10px 28px;
+      background-color: #fff;
+      color: #757575;
+    }
+    fv-card,.fv-card {
+      display: block;
+      box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+      padding: 10px;
+      border-radius: 2px;
+    }
+  </style>
+</head>
+<body>
+<article id="demo-page">
+  <fv-toolbar class="demo-toolbar">
+    <h1>feaven input demo</h1>
+  </fv-toolbar>
+  <section class="card-content-position">
+    <fv-card class="demo-card">
+      <h1>Login Card</h1>
+      <fv-input type="text" id="i-user" placeholder="User"></fv-input>
+      <fv-input type="password" id="i-password" placeholder="Password"></fv-input>
+    </fv-card>
+  </section>
+</article>
+</body>
+<script src="build/build.js"></script>
+<script>
+var fi = require("fv-input");
+fi.render("#i-user");
+fi.render("#i-password");
+</script>
+</html>
