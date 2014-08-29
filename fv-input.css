@@ -38,7 +38,7 @@ fv-input label:hover,.fv-input label:hover {
 
 fv-input.fv-input-focused input,fv-input.fv-input-has-value input,.fv-input.fv-input-focused input,.fv-input.fv-input-has-value input {
   border-bottom-width: 2px;
-  border-color: #5677fc
+  border-color: #00bcd4
 }
 
 fv-input input:focus,.fv-input input:focus {
@@ -48,5 +48,5 @@ fv-input input:focus,.fv-input input:focus {
 fv-input.fv-input-focused label,fv-input.fv-input-has-value label,.fv-input.fv-input-focused label,.fv-input.fv-input-has-value label {
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
-  color: #5677fc
+  color: #00bcd4
 }
